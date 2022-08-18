@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <title>Coding challenge</title>
+  </head>
+  <body>
+
+    <!-- Contenitore del body -->
+
+    <div class="contenitore">
+
+      <!-- Header (logo e claim) -->
+
+      <header>
+        <img id="logo" src="logo.png" alt="logo-lim">
+        <span>Taking Booleaners from A to B</span>
+      </header>
+
+      <!-- Menù di navigazione (pulsanti di azione) -->
+
+      <nav>
+        <button type="button" name="prenota">Prenota</button>
+        <button type="button" name="termina-prenotazione">Termina Prenotazione</button>
+        <button type="button" name="accendi-luci">Accendi Luci</button>
+      </nav>
+
+      <!-- Monopattini disponibili in ordine di vicinanza (con rispettivo stato di carica) -->
+
+      <main>
+
+        <!-- Primo monopattino in ordine di vicinanza -->
+
+        <section class="monopattino">
+          <input type="checkbox" name="selezione-monopattino" value="prenotato">
+          <span class="nome-monopattino">Monopattino Gino22</span>
+          <div class="posizione">
+          <span>&#8614;</span><span>Via Guadalametri - </span><span>a 220 metri da te</span>
+          </div>
+          <div>Stato carica:</div>
+          <div class="barra-carica" id="monopattino1"></div>
+        </section>
+
+        <!-- Secondo monopattino in ordine di vicinanza -->
+
+        <section class="monopattino">
+          <input type="checkbox" name="selezione-monopattino" value="prenotato">
+          <span class="nome-monopattino">Monopattino Mike24</span>
+          <div class="posizione">
+          <span>&#8614;</span><span>Via Ricciardoni - </span><span>a 420 metri da te</span>
+          </div>
+          <div>Stato carica:</div>
+          <div class="barra-carica" id="monopattino2"></div>
+        </section>
+
+        <!-- Terzo monopattino in ordine di vicinanza -->
+
+        <section class="monopattino">
+          <input type="checkbox" name="selezione-monopattino" value="prenotato">
+          <span class="nome-monopattino">Monopattino Fede154</span>
+          <div class="posizione">
+          <span>&#8614;</span><span>Via Mentarini - </span><span>a 490 metri da te</span>
+          </div>
+          <div>Stato carica:</div>
+          <div class="barra-carica" id="monopattino3"></div>
+        </section>
+
+
+
+      </main>
+
+
+
+    </div>
+
+
+
+  </body>
+</html>

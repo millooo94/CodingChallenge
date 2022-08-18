@@ -1,0 +1,79 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.contenitore {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 80px;
+}
+
+header {
+  text-align: center;
+  color: lime;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+nav {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: lime;
+}
+
+button {
+  background-color: white;
+  text-align: center;
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+main {
+  color: white;
+}
+
+.monopattino {
+  margin-top: 20px;
+}
+
+.nome-monopattino {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.barra-carica {
+  height: 23px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#monopattino1 {
+  width: 280px;
+  background-color: #f5b455;
+}
+
+#monopattino2 {
+  width: 500px;
+  background-color: #1fc31e;
+}
+
+#monopattino3 {
+  width: 130px;
+  background-color: #bc4142;
+}
